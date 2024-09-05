@@ -6,6 +6,9 @@ body {
 body > header {
     background-color: orange;
     color: white;
+    display: flex;
+    height: 12vh;
+    justify-content: space-around;
 }
 
 body > footer {
@@ -16,7 +19,7 @@ body > footer {
 }
 
 #logo {
-    margin: 0;
+    margin: 16;
     font-family: "Fredoka One", sans-serif;
 }
 
@@ -31,4 +34,30 @@ nav > ul > li > a {
 body > main > article {
     margin: auto;
     width: 70%;
+}
+
+body > main > aside > section {
+    padding: 5vh;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
 }
